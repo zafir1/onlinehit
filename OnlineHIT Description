@@ -1,0 +1,14 @@
+sudo /etc/init.d/apache2 stop 
+
+
+OnlineHIT is an online directory based on PHP platform that has utility in open source resource sharing. It can be used to share the tutorial, assignment, lecture notes, notice, accessing library resources and other useful activity related to students and faculty at institute level. 
+
+The main objective of OnlineHIT is making every kind of information centralized and much more user-friendly at any educational institution. On this website, every user will be divided based on certain hierarchy level as well as on their stream and academic year. Users will be segregated in different hierarchy based on a certain crieteria wheather he/she is among faculty members/core members of any club or cummunity/HODs of differnet departments/normal users. 
+
+Students with lowest hierarchy (normal users) level can access information about any book which he/she is willing to find is available in the library or not. They can access assignments, important informations shared by different faculties and club members. In addition to these they can also interact with faculty members regarding any queries and suggesitions if they would like to offer through the available chat option on the website. 
+
+Students belonging to an upper hierarchy level can access the above mentioned facilities as well as  share post/information of that particular club to which he or she is associated with others. If that club is organizing any workshop or any sort of events then, the registration process can also be done through this website with availabe Dashbord system without any pen/paper.
+
+Moving to the faculties they can access a normal user facilities and can also share assignments, class notes to their respective students. These posts/assignments or shared informations will be visible to students or users in an exclusive way. On this website there is a flexibility on the accessibility of posts shared by any faculty. For instance, suppose any faculty is making some post for specific group of people (say ECE department, 3rd year and batch-II) then here on this website there is a provision that these will be shown to those people only.  Instead of these any student or a normal user if intrested can avail the notes or assignments by moving on the respective faculty wall if it doesn't comes under the restricted zone.
+
+The main motive of the website is make to the information sharing facility of any educational  institute centralized and much more user-friendly.
