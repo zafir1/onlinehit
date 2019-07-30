@@ -1,0 +1,206 @@
+.personal_chat_list{
+	height: 70vh;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.personal_chat_list::-webkit-scrollbar{
+	width:5px;
+}
+
+.personal_chat_list::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+/* personal chat box */
+
+.comments{
+	width: 95%;
+	
+}
+
+.comments .comment{
+	width: 95%;
+	margin-bottom: 20px;
+}
+
+.comments .comment p{
+	margin:0 0 10px 0;
+}
+
+
+
+.bubble_me{
+	position: relative;
+	background: #80ff80;
+	padding: 20px;
+	color: black;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.bubble_me::after{
+	content: "";
+	display: block;
+	position: absolute;
+	right: -15px;
+	top: 10px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 15px solid #80ff80;
+}
+
+
+
+
+.bubble_friend{
+	position: relative;
+	background: #d6d6c2;
+	padding: 20px;
+	color: #222;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.bubble_friend::after{
+	content: "";
+	display: block;
+	position: absolute;
+	left: -15px;
+	top: 10px;
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 15px solid #d6d6c2;
+}
+
+.bubble .me{
+	order: -1;
+}
+
+/* Chatlogs */
+
+/* .chatbox{
+	width:100%;
+	height: 70vh;
+	overflow-x:hidden;
+	overflow-y:scroll;
+} */
+
+.chatlogs{
+	height: 80vh;
+	width: 100%;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.chatlogs::-webkit-scrollbar{
+	width:8px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+/* ********************************************************************************************************* */
+
+/* .chatbox{
+	width:100%;
+	min-width: 300px;
+	min-height: 400px;
+	background: #fff;
+}
+
+.chatlogs{
+	height: 300px;
+	width: 100%;
+	background-color: #eee;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.chatlogs::-webkit-scrollbar{
+	width:8px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+.chat{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+}
+
+.chat .chat-message{
+	width:95%;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 1.1em;
+}
+
+.friend .chat-message{
+	background-color: #1adda4;
+}
+
+.self .chat-message{
+	background-color: #1ddced;
+	float: right;
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+	order:-1;
+}
+
+.chat-form textarea{
+	width:85%;
+	resize: none;
+}
+
+.chatform textarea{
+	resize: none;
+}
+
+.chat-form textarea::-webkit-scrollbar{
+	width:8px;
+}
+
+.chat-form textarea::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.1);
+}
+
+chatlist
+
+.personal_chat_list{
+	height: 300px;
+	width: 100%;
+	background-color: #eee;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+
+Again
+.chat_list
+{
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	min-height: 350px;
+
+}
+
+ */

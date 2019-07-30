@@ -1,0 +1,7 @@
+1. Install Xampp on your local server.
+2. Make 3 databases on your server with name 
+	a. users
+	b. chats
+	c. events
+
+3. Start your Xampp server and run index.php

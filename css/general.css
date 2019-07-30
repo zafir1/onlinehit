@@ -1,0 +1,79 @@
+#upper_case{
+	text-transform: uppercase;
+}
+#float_right{
+	float: right;
+	color: #a6a6a6;
+	font-size: 0.9em;
+}
+#float_left{
+	float: left;
+	color: #a6a6a6;
+	font-size: 0.9em;
+	padding-bottom: 50px;
+}
+#edit_club_news_page_header{
+	color: #e6e6e6;
+}
+.well-wb{
+	background-color: white;
+	color: black;
+}
+
+.well-crm{
+	background-color: #ffffe6;
+}
+
+.gray_color{
+	color: #e6e6e6;
+}
+
+.ab{
+	color: #999999;
+}
+
+ul li .aside-menu-list{
+	padding-bottom: 50px;
+}
+
+.time
+{
+	color: #999999;
+	font-size: 0.9em;
+
+}
+.time-h
+{
+	color: #666666;
+	font-size: 1.1em;
+
+}
+.indent{
+	text-indent: 50px;
+}
+.well-blue{
+
+	color: #337ab7;
+	/*color: #005266;*/
+}
+#no_result_found
+{
+	font-size: 25px;
+}
+#big_smile{
+	font-size: 50px;
+}
+
+@media(min-width: 766px)
+{
+	#top_menu{
+		display: none;
+	}
+}
+
+@media(max-width: 767px)
+{
+	#aside_menu{
+		display: none;
+	}
+}

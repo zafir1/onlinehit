@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<?php include "includes/head.php"; ?>
+<body>
+	<?php include "includes/header.php"; ?>
+
+	<div class="full_body">
+
+	<section class="container main_container">
+		
+		<div class="well-lg col-md-8">
+			<h1 class="well">
+				Home
+			</h1>
+			<p class="well">
+				This is the home page.   
+			</p>
+		</div>
+
+		<div class="well-lg col-md-1"></div>
+	 
+		<div class="well well-xs col-md-4">
+			
+			<?php include "includes/aside.php"; ?>
+
+		</div>
+
+		
+	</section>
+	</div>
+	<?php include "includes/footer.php"; ?>
+</body>
+</html>
